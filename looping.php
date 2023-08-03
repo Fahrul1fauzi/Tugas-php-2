@@ -101,11 +101,11 @@
                 "name" => $item[1],
                 "price" => $item[2],
                 "description" => $item[3],
-                "source" => $item[4]
+                "source" => $item[4],
             ];
         }
         print_r($jajal);
-        
+
         echo "<h3>Soal No 4 Asterix </h3>";
         /* 
             Soal No 4
@@ -120,7 +120,7 @@
         */
         echo "Asterix:<br>";
         for ($i = 1; $i <= 5; $i++) {
-            for ($j = 1; $j <= $i; $j++) {
+            for ($g = 1; $g <= $i; $g++) {
                 echo "* ";
             }
             echo "<br>";
