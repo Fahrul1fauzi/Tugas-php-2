@@ -84,7 +84,7 @@ NB: DILARANG menggunakan built-in function PHP seperti strrev() dll. Gunakan loo
 
 
 // Code function di sini
-function palindromes($string) {
+function palindrome($string) {
     $length = strlen($string);
     $palindrome = true;
 
@@ -100,10 +100,10 @@ function palindromes($string) {
 }
 
 // Hapus komentar di bawah ini untuk jalankan code
-palindromes("civic");   // Output: true
-palindromes("nababan"); // Output: true
-palindromes("jambaban"); // Output: false
-palindromes("racecar");  // Output: true
+palindrome("civic");   // Output: true
+palindrome("nababan"); // Output: true
+palindrome("jambaban"); // Output: false
+palindrome("racecar");  // Output: true
 
 
 echo "<h3>Soal No 4 Tentukan Nilai </h3>";
